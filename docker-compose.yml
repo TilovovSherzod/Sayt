@@ -18,9 +18,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
-      - POSTGRES_PASSWORD=postgres
-      - POSTGRES_USER=postgres
-      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=1234
+      - POSTGRES_USER=ShohMarket_admin
+      - POSTGRES_DB=ShohMarket_db
 
 volumes:
   postgres_data:
